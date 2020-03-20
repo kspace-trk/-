@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900&display=swap" rel="stylesheet">
     <title>行並べ替えくん</title>
 </head>
 <body>
+    <header>
+      <p>行並べ替えくん</p>
+    </header>
   <div class="main-wrapper">
-      <p>テキストを入れてください</p>
-    <textarea id="inputText" cols="30" rows="10"></textarea>
-    <p><button onclick="reverseInputText()">並べ替え</button></p>
+      <div class="palce-holder">
+        <p>テキストを入れてください</p>
+        <textarea id="inputText" cols="100" rows="30"></textarea>
+      </div>
+    <p><button class="btn" onclick="reverseInputText()">並べ替え</button></p>
     <div id="outputText"></div>
   </div>
 </body>
