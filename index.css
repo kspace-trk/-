@@ -138,10 +138,10 @@ header p{
     position: relative;
 }
 
-.place-holder p{
-    position: absolute;
-    top: -100px;
 
+#inputText{
+    margin: 5px 10vw 0 10vw;
+    width: 80%;
 }
 
 .btn {
