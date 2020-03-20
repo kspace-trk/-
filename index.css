@@ -142,6 +142,7 @@ header p{
 #inputText{
     margin: 5px 10vw 0 10vw;
     width: 80%;
+    height: 50vh;
 }
 
 .btn {
