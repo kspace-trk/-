@@ -201,6 +201,7 @@ header p {
 #inputText {
   width: 80%;
   height: 50vh;
+  font-size: 18px;
 }
 
 .btn {
