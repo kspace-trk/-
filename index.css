@@ -138,6 +138,11 @@ header p{
     position: relative;
 }
 
+.about{
+    font-weight: 700;
+    font-size:18px;
+    margin-bottom: 30px;
+}
 
 #inputText{
     margin: 5px 10vw 0 10vw;
